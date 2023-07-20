@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mis 15 Cande</title>
+</head>
+
+<body>
+    <main>
+        <div class="principal">
+            <div class="fotoCande">
+                <img src="/imagenes/Principal.jpeg" alt="Cande 15">
+                <div class="textoFoto">
+                    <h1 class="tCande">Cande</h1>
+                    <p class="tMis15">Mis 15 años</p>
+                    <p class="tFecha">19 - 08 - 23</p>
+                    <a href="#dias"><img class="wow flecha animate__animated animate__bounce"
+                            src="/imagenes/Flecha Abajo.png" alt="Flecha Abajo"></a>
+                </div>
+            </div>
+            <div class="contenedorCuerpo">
+                <p id="dias" class="punto">.</p>
+                <div class="contenedorDias">
+                    <p class="tDias">¿Cuánto falta?</p>
+                    <div class="countdown">
+                        <div>
+                            <span class="days">Días</span>
+                            <p id="days">.</p>
+                        </div>
+                        <div>
+                            <span class="hours">Hs</span>
+                            <p id="hours">.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ubicacion">
+                    <img class="wow animate__animated animate__backInDown" src="/imagenes/ubicacion.png" alt="Ubicacion">
+                    <p class="tSalon">Salón Bomberos Voluntarios</p>
+                    <p class="tDireccion">Tucumán 1148 - Sunchales</p>
+                    <img class="fotoSalon" src="/imagenes/Salon.jpg" alt="Salon">
+                    <div><a class="botonUbicacion" href="https://goo.gl/maps/688zKvW4cnYXfkeC6">VER UBICACIÓN</a></div>
+                </div>
+                <div class="logoCamara">
+                    <img src="/imagenes/Camara.png" alt="Logo Camara">
+                </div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/imagenes/Foto1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imagenes/Foto2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imagenes/Foto3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imagenes/Foto4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imagenes/Foto5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/imagenes/Foto6.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div id="canciones" class="canciones">
+                    <img class="logoMusica" src="/imagenes/musica.png" alt="Logo Musica">
+                    <p class="queCancion">¿QUÉ CANCIONES<br>NO PUEDEN FALTAR?</p>
+                    <p class="ayudaCancion">¡Ayudame sugiriendo las canciones que<br>pensás que no pueden faltar en la
+                        fiesta!</p>
+                    <form class="formulario" action="https://formsubmit.co/cande.fiesta15@gmail.com" method="POST">
+                        <p class="nCancion">Nombre de la canción</p>
+                        <input type="text" name="Nombre de la canción" id="nombreCancion" required>
+                        <p class="autor">Autor</p>
+                        <div><input type="text" name="Autor" id="autor" required></div>
+                        <div><input class="bEnviar" type="submit" value="ENVIAR"></div>
+
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/#canciones">
+                        <input type="hidden" name="_captcha" value="false">
+                    </form>
+                </div>
+                <div class="instagram">
+                    <img class="logoInstagram wow animate__animated animate__rubberBand" src="/imagenes/instagram.png"
+                        alt="Logo Instagram">
+                    <p class="hashtag">DURANTE LA FIESTA UTILIZÁ EL HASHTAG</p>
+                    <p class="candefest">#CANDEFEST</p>
+                    <p class="eInstagram">y etiquetame en Instagram</p>
+                    <a class="etiquetame" href="https://www.instagram.com/cande.bonazza/"
+                        target="_blank">@cande.bonazza</a>
+                </div>
+                <div class="confirmacion">
+                    <img class="asistencia" src="/imagenes/asistencia.png" alt="Asistencia">
+                    <p class="pConfirmacion">CONFIRMACIÓN DE ASISTENCIA</p>
+                    <p class="pUno">Tenes tiempo hasta el 10 de Agosto 2023.</p>
+                    <p class="pDos">Si contas con alguna restricción alimentaria o <br>
+                        necesitas solicitar un menú (vegetariano/vegano) <br>
+                        sólo nos tenes que dejar un comentario al confirmar.</p>
+                    <div class="horarioEvento">
+                        <p class="pTres">Horario del evento: 21:00hs</p>
+                    </div>
+                    <p class="pCuatro">Valor Cena <br>
+                        Mayores: $9.700 <br>
+                        Menores de 7 a 9 años: $6.700 <br>
+                        Menores de 2 a 6 años: $5.700</p>
+                    <p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            <span>Método de pago</span> ↓
+                        </a>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div>
+                            <strong>Alias: </strong>xv.cande
+                        </div>
+                    </div>
+                    <div class="contenedorAsistencia">
+                        <a class="botonAsistencia"
+                            href="https://api.whatsapp.com/send?phone=3493419282&text=Hola! Quiero confirmar mi asistencia a tus 15 🥳"
+                            target="_blank">CONFIRMAR A MARI</a>
+                        <a class="botonAsistencia"
+                            href="https://api.whatsapp.com/send?phone=3493416981&text=Hola! Quiero confirmar mi asistencia a tus 15 🥳"
+                            target="_blank">CONFIRMAR A DANI</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="/script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
